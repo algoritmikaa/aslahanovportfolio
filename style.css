@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 35px;
+    margin-bottom: 15px;
+}
+
+header a {
+    text-decoration: none;
+    background-color: brown;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+header a:hover{
+    background-color: grey;
+    color: rgb(228, 215, 215);
+}
+
+nav a{
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 5px;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+    text-shadow: 5px 5px 5px black;
+}
+
+main p{
+    color: chartreuse;
+}
+
+main p:hover{
+    color: coral;
+    transition: 1s ease-out;
+}
+
+footer{
+    background-color: darkgreen;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+footer:hover{
+    background-color: aqua;
+    transition: 1s ease-in;
+}
+
+.link-text:hover {
+    color: brown;
+    font-size: 30px;
+}
+
+p:hover {
+    font-size: 35px;
+    background-color: lawngreen;
+    text-shadow: 5px 5px 5px black;
+}
+
+li:hover {
+    font-size: 30px;
+    color: blueviolet;
+    transition: 0.5s ease-out;
+}
